@@ -1,0 +1,38 @@
+.welcome-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .data-structure-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .data-structure {
+    width: 200px;
+  }
+  
+  .clickable {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .clickable:hover {
+    background-color: #45a049;
+  }
+  
+  .non-clickable {
+    background-color: #ccc;
+    color: #666;
+    padding: 15px;
+    border: none;
+    cursor: not-allowed;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,71 @@
+# Node.js dependencies
+node_modules/
+.npm/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Testing files and coverage
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Parcel cache
+.cache/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled and output files
+*.log
+*.lock
+
+# Ignore lockfiles
+package-lock.json
+yarn.lock
+
+# Ignore public folder, keeping only HTML and main manifest files
+public/*
+!public/index.html
+!public/manifest.json
+
+# Ignore other files and folders not related to core project logic
+# You can add specific file types or patterns
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Ignore build, testing, and unnecessary files
+*.test.js
+*.test.jsx
+*.spec.js
+*.spec.jsx
+
+# Ignore any temporary files
+*.tmp
+*.swp
+*.bak
